@@ -1,0 +1,48 @@
+.BurgerControl {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 5px 0;
+    color: #fff;
+}
+
+.BurgerControl .label {
+    text-align: left;
+    font-size: 20px;
+    width: 200px;
+}
+
+.BurgerControl button {
+    display: block;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    background-color: #ffffff;
+    color: #777777;
+    width: 45px;
+    height: 45px;
+    margin: 0 15px;
+    border: 2px solid #f7f7f7;
+    border-radius: 50%;
+    cursor: pointer;
+    outline: none;
+    transition: 0.15s ease-in;
+}
+
+
+.BurgerControl button:hover {
+    background-color: #f7f7f7;
+}
+
+.BurgerControl button:active {
+    background-color: #ffffff;
+    border-color: #ffffff;
+}
+
+.BurgerControl button:disabled {
+    background-color: #aaa;
+    border-color: #aaa;
+    color: #fff;
+    cursor: not-allowed;
+}

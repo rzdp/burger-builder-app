@@ -1,0 +1,30 @@
+.OrderSummary {
+}
+
+.OrderSummary .header {
+    border-radius: 10px 10px 0 0;
+    background: #40a461;
+    color: #fff;
+    padding: 10px;
+}
+
+.OrderSummary .body {
+    padding: 20px;
+}
+
+.OrderSummary .body ul {
+    list-style-type: none;
+}
+
+.OrderSummary .item {
+    text-transform: capitalize;
+    margin-left: 30px;
+    margin-top: 10px;
+    font-weight: 700;
+    display: inline-block;
+    width: 70px;
+}
+
+.OrderSummary .footer {
+    margin-top: 30px;
+}

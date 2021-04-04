@@ -1,0 +1,58 @@
+.BurgerControls {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 200px;
+    text-align: center;
+    font-size: 16px;
+    background-color: #40a461;
+    color: #fff;
+    padding: 15px;
+}
+
+.BurgerControls .priceHeader {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.BurgerControls .priceValue {
+    color: #ffcb2f;
+    margin-left: 5px;
+    font-weight: 700;
+}
+
+.BurgerControls .orderButton {
+    display: block;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    background-color: #ffffff;
+    color: #777777;
+    margin: 15px;
+    padding: 10px 50px;
+    border: 2px solid #f7f7f7;
+    border-radius: 50px;
+    cursor: pointer;
+    outline: none;
+    transition: 0.15s ease-in;
+}
+
+
+.BurgerControls .orderButton:hover {
+    background-color: #f7f7f7;
+}
+
+.BurgerControls .orderButton:active {
+    background-color: #ffffff;
+    border-color: #ffffff;
+}
+
+.BurgerControls .orderButton:disabled {
+    background-color: #aaa;
+    border-color: #aaa;
+    color: #fff;
+    cursor: not-allowed;
+}
